@@ -1,0 +1,50 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1714253743,
+        "narHash": "sha256-mdTQw2XlariysyScCv2tTE45QSU9v/ezLcHJ22f0Nxc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "58a1abdbae3217ca6b702f03d3b35125d88a2994",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "solidpython2": "solidpython2"
+      }
+    },
+    "solidpython2": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "dir": "solidpython2",
+        "lastModified": 1713692119,
+        "narHash": "sha256-n7RrwszNkFWA7+uIDq4YO3ceJ2TePbYMOF3q7MtCGzs=",
+        "owner": "jonboh",
+        "repo": "nix-environments",
+        "rev": "9e51972ac966b668a19dd12719408bf48313c4b3",
+        "type": "github"
+      },
+      "original": {
+        "dir": "solidpython2",
+        "owner": "jonboh",
+        "repo": "nix-environments",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
